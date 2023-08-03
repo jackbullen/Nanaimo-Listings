@@ -1,0 +1,96 @@
+
+/* Initially, hide the overflow and limit the height */
+.listing-desc p.collapsed {
+    overflow: hidden;
+    max-height: 100px; /* Adjust the height as needed */
+  }
+  
+  /* Show the "Read More" link only when the text is truncated */
+  .listing-desc .read-more {
+    display: none;
+    cursor: pointer;
+  }
+  
+  /* Show the "Read More" link when the text is truncated */
+  .listing-desc.expanded .read-more {
+    display: inline;
+  }
+  
+  /* Hide the "Read More" link when the text is fully shown */
+  .listing-desc.expanded p.collapsed {
+    max-height: none;
+  }
+  
+  /* Reset default margin and padding for <p> tags */
+p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set font family and size for <p> tags */
+  p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  /* Set line-height for better readability */
+  p {
+    line-height: 1.6;
+  }
+  
+  /* Add some spacing between paragraphs */
+  p {
+    margin-bottom: 10px;
+  }
+  
+  /* Set text color */
+  p {
+    color: #333; /* You can change this to any color you like */
+  }
+
+  /* Default styles for large screens */
+#listing-container {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    gap: 8px;
+    justify-content: center;
+  }
+  
+ /* Basic styles for the footer */
+.footer {
+    background-color: rgb(196, 196, 196);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+  
+  /* Optional: Add some hover effect */
+  .footer:hover {
+    background-color: rgb(122, 122, 122);
+    transition: background-color 0.2s ease;
+  }
+  
+  .join {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  
+
+  /* Styles for medium-sized screens */
+  @media screen and (max-width: 968px) {
+    #listing-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* Styles for small screens */
+  @media screen and (max-width: 540px) {
+    #listing-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  

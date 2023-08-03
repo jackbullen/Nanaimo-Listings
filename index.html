@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Nanaimo Housing</title>
+    <html data-theme="cupcake"></html>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+
+
+        <div class="hero h-90 bg-base-200">
+          <body>
+            <div class="hero-content text-center">
+              <div class="max-w-md">
+                <div class="avatar">
+                  <!-- <div class="w-24 rounded-full">
+                    <img src="./avatar.png" />
+                  </div> -->
+                </div>
+                <h1 class="text-5xl font-bold">Nanaimo, BC</h1>
+                <p class="py-6">Check out these property listings. Click on the image and then drag the little yellow man to the red marker to get a street view.</p>
+
+              </div>
+            </div>
+          </div>
+          
+          <div class="min-h-screen bg-base-200 grid grid-cols-1 gap-8 justify-center">
+            <div id="listing-container" class="grid grid-cols-3 gap-8 justify-center"></div>
+            <!-- <div id="pagination-buttons" class="mt-4 flex space-x-4  justify-center">
+              <button id="backward-button" class="btn btn-primary my-1">Backward</button>
+              <button id="forward-button" class="btn btn-primary my-1">Forward</button>
+            </div> -->
+            <div class="join my-10">
+              <button id="backward-button" class="join-item btn">«</button>
+              <button id="page-indicator" class="join-item btn"></button>
+              <button id="forward-button" class="join-item btn">»</button>
+            </div>
+          </div>
+
+          <div class="footer">
+            <p class="text-white">© 2023 No rights reserved.</p>
+            
+            </div>
+          </div>
+          
+    <script src="script.js"></script>
+    </body>
+
+</html>
