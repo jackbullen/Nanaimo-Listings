@@ -27,3 +27,6 @@ Include advanced search and filtering options. Look into if it's possible to imp
 
 <img width="1167" alt="IMG" src="https://github.com/jackbullen/Nanaimo-Listings/assets/37254717/fe14589e-80e3-4cfc-80b4-9ae8e5fbe3d6">
 
+<img width="1161" alt="IMG2" src="https://github.com/jackbullen/Nanaimo-Listings/assets/37254717/20a92a76-e84d-4a2d-a4ef-503f01e657b7">
+
+
