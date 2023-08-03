@@ -1,6 +1,9 @@
 # Nanaimo Listings
 Welcome to our house listing application! Discover your dream home in Nanaimo, BC, with ease. Browse through a curated collection of residential properties, each showcased beautifully with details like price, bedrooms, bathrooms, and square footage. Get a glimpse of the property's neighbourhood by clicking on the map. Find your home sweet home today!
 
+## TODO
+1. Fix CORS error.
+
 ## Inspiration
 The inspiration was to create a user-friendly and visually appealing house listing application for potential homebuyers and real estate enthusiasts in the **beautiful city of Nanaimo, BC**. We wanted to provide a platform where users could easily explore a curated collection of residential properties and learn about their features.
 
