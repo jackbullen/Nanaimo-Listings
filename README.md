@@ -24,3 +24,6 @@ Tailwind CSS and Daisy UI. Using JS to fetch data from an API, handle asynchrono
 
 ## What's next for Nanaimo Listings
 Include advanced search and filtering options. Look into if it's possible to improve the apps script API to allow filtered queries from the JavaScript. Enhance the user experience by adding additional features such as property comparisons. Further data processing with apps script could be done as there are properties not in Nanaimo and undeveloped. Other directions for the app could be a prototype of a management system for real estate agents.
+
+<img width="1167" alt="IMG" src="https://github.com/jackbullen/Nanaimo-Listings/assets/37254717/fe14589e-80e3-4cfc-80b4-9ae8e5fbe3d6">
+
