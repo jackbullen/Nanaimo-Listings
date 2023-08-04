@@ -3,10 +3,11 @@ const listingsPerPage = 6;
 
 
 async function load() {
-// Fetch events from Google API endpoint.
 
-    const response = await fetch('https://script.google.com/macros/s/AKfycby8Ku5KVT64FM_bcrlvlenf_Phex5S0V0cbhnC70BzEkAI3FF8TjP61xkK_JICW6T7n5A/exec');
+    const response = await fetch('./data/Data.json');
+
     const listings = await response.json();
+    console.log(listings["addr"]);
     var pageNumber = 1;
     showListings(listings, pageNumber);
 
