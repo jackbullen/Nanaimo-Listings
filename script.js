@@ -8,7 +8,7 @@ async function load() {
 
     const listings = await response.json();
     console.log(listings["addr"]);
-    var pageNumber = 1;
+    var pageNumber = 0;
     showListings(listings, pageNumber);
 
     document.getElementById('forward-button').addEventListener('click', () => {
